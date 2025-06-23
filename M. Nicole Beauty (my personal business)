@@ -1,0 +1,24 @@
+**M.Nicole:
+Body oil (5)
+Body oil Brushes (5)
+Body Butter (6)
+**/
+
+Create Table M_Nicole (id INTEGER PRIMARY KEY, Name TEXT, Quanity Integer, Price Integer, Aisle Integer);
+
+
+Insert Into M_Nicole Values (1,"Body Oil",5,12.00,3);
+Insert Into M_Nicole Values (2,"Body Oil Brushes",5,15.00,3);
+Insert Into M_Nicole Values (3,"Body Butter",6,18,3);
+Insert Into M_Nicole Values (4,"Shower Steamer",20,5,4);
+Insert Into M_Nicole Values (5,"Shower Steamer holders",15,8,4);
+Insert Into M_Nicole Values (6,"Hand Butter",10,8,3);
+Insert Into M_Nicole Values (7,"Face Butter",10,10,3);
+Insert Into M_Nicole Values (8,"Soap",25,9.50,4);
+Insert Into M_Nicole Values (9,"Teacher Shirts",10,12.50,6);
+Insert Into M_Nicole Values (10,"Nurse Shirts",10,12.50,6);
+Insert Into M_Nicole Values (11,"Spirtual Shirts",10,12.50,6);
+Insert Into M_Nicole Values (12,"Motivational Quotes Shirts",10,12.50,6);
+Insert Into M_Nicole Values (13,"Bath Salt",12,14,4);
+Insert Into M_Nicole Values (14,"Sweatshirts",25,18.50,6);
+Insert Into M_Nicole Values (15,"Embroidery",35,25.50,6);
