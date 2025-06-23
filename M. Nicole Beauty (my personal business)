@@ -22,3 +22,17 @@ Insert Into M_Nicole Values (12,"Motivational Quotes Shirts",10,12.50,6);
 Insert Into M_Nicole Values (13,"Bath Salt",12,14,4);
 Insert Into M_Nicole Values (14,"Sweatshirts",25,18.50,6);
 Insert Into M_Nicole Values (15,"Embroidery",35,25.50,6);
+
+#1 #Use a SELECT statement to order the items by price.
+SELECT name, price
+FROM M_Nicole
+ORDER BY price desc;
+
+#2 Show a statistic about the item prices.
+SELECT avg(price)
+FROM M_Nicole;
+
+#3 Show a statistic about the price for items in the category of "Body Butter"
+SELECT avg(price)
+FROM M_Nicole
+WHERE aisle="Body Butter"
